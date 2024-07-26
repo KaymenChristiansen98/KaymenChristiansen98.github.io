@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link href="rock&stone.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1><a href="Index.html">Rock & Stone</a></h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="contact.html">Contant Us</a></li>
+            </ul>
+        </nav>
+        <main>
+
+            <h2>Welcome to the contact page.</h2>
+            <h3>Contact us if you have any questions or comments.</h3>
+            <h3>
+                Required fields*
+            </h3>
+            <form>
+                <label for="First">*First Name:</label>
+                <input type="text" name="myFname" id="First">
+
+                <label for="Last">*Last Name:</label>
+                <input type="text" name="myLname" id="Last">
+
+                <label for="Email">*E-mail: </label>
+                <input type="text" name="myEmail" id="Email">
+
+                <label for="Telephone">Phone:</label>
+                <input type="tel" name="myPhone" id="Telephone"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+                <label for="Comments">*Comments:</label>
+            
+                <textarea name="myComments" id="Comments" rows="2" cols="40" required="required"
+                    placeholder="your comments here"></textarea>
+                <input type="submit" value="Submit">
+
+            </form>
+
+            <h2>For delivery questions or issues please fill out here.</h2>
+            <h3>Contact us here.</h3>
+            <h3>
+                Required fields*
+            </h3>
+            <form>
+                <label for="First2">*First Name: </label>
+                <input type="text" name="myFname" id="First2">
+
+                <label for="Last2">*Last Name:</label>
+                <input type="text" name="myLname" id="Last2">
+
+                <label for="Email2">*E-mail: </label>
+                <input type="text" name="myEmail" id="Email2">
+
+                <label for="Telephone">Phone:</label>
+                <input type="tel" name="myPhone" id="Telephone2"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+                <label for="Streetaddress">*Street Address:</label>
+                <input type="text" name="address" id="Streetaddress">
+                
+                <label for="Delivery">*Delivery Issue?:</label>
+            
+                <textarea name="myComments" id="Delivery" rows="2" cols="40" required="required"
+                    placeholder="your delivery issue here"></textarea>
+                <input type="submit" value="Submit">
+                </form>
+          
+
+            <div>
+                <hr>
+                <p>Rock & Stone<br>
+                    15050 Rocky Road<br>
+                    Stonewall, UT 98050<br>
+                    800-555-7625</p>
+                <hr>
+            </div>
+        </main>
+
+        <footer>
+            <small>
+                <i>
+                    Copyright &copy; 2020 Rock & Stone
+                    <br>
+                    <a href="mailto:4800635432@davistech.edu">Email Us</a>
+                </i>
+            </small>
+        </footer>
+    </div>
+</body>
+
+</html>

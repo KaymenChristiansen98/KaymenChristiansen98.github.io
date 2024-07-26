@@ -1,0 +1,194 @@
+body {
+    background-color: #888888;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #944700;
+    color: #000000;
+    background-image: url(giphy.gif);
+    background-position: right;
+    background-repeat: no-repeat;
+    line-height: 500%;
+    text-indent: 1em;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    transition: background-color 2s linear;
+}
+
+header a:link {
+    color: white;
+}
+
+header a:visited {
+    color: #000000;
+}
+
+header a:hover {
+    color: #b10000;
+    background-color: #a99a9a;
+}
+
+main {
+    background-color: #ffffff;
+    margin-left: 190px;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    display: block;
+    overflow: auto;
+}
+section {
+    float: none;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+nav {
+    font-weight: bold;
+    font-size: 120%;
+    float: left;
+    width: 160px;
+    padding: 1.5em;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 0.5em;
+    transition: background-color 2s linear;
+}
+
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+nav a:link{
+    color: black;
+}
+
+nav a:visited {
+    color: #545454;
+}
+
+nav a:hover {
+    color: #b10000;
+    background-color: #a99a9a;
+}
+h1 {
+    margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000033;
+}
+p {
+    color: #000000;
+}
+ul {
+    color: #000000;
+}
+b {
+    color: #000000;
+}
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#wrapper {
+    width: 80%;
+    margin-left: auto; margin-right: auto;
+    background-color: #90c7e3;
+    min-width: 960px;
+    max-width: 2048px;
+    border: 1px #000033;
+    box-shadow: 3px 3px 3px 3px #000000;
+    background-image: linear-gradient(to bottom, #ffffff, #888888);
+}
+
+hr {
+    border: #000000;
+    border-style: solid;
+    border-top: 3px;
+}
+#row {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+#gallery {
+    display: grid;
+    grid-template-columns: 220px 220px 220px;
+    grid-template-rows: 150px 150px;
+    justify-content: space-around;
+}
+#product-gallery-1 {
+    display: flex;
+    grid-template-columns: 220px 220px 220px;
+    grid-template-rows: 150px 150px;
+    margin: 4px;
+    flex-direction: column;
+}
+
+table {
+    border: 2px solid #333333;
+    border-collapse: collapse;
+}
+
+td, th{
+    padding: 0.5em;
+    border: 2px solid #333333;
+    text-align: center;
+}
+.text {
+    text-align: left;
+}
+tr:nth-of-type(odd) {
+    background-color: #b1b1b1;
+}
+
+tr:nth-of-type(even) {
+    background-color: #666666;
+}
+
+#special {
+    clear: both;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+    color: #000000;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 140px;
+}
+
+
